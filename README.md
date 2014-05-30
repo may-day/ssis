@@ -12,7 +12,7 @@ saxonb-xslt -o result.html your_ssis_package.dtsx scd.xsl
 ```
 2. in-document:
   - Add `<?xml-stylesheet type="text/xsl" href="scd.xsl"?>`
-    to the dtsx file right after the <?xml version="1.0"?>.
+    to the dtsx file right after the `<?xml version="1.0"?>`.
   - Place the scd.xsl file in the same directory as the dtsx file.
   - Open the dtsx in the browser (tested with firefox).
 
