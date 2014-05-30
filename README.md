@@ -6,11 +6,11 @@ It produces a very simple html document.
 
 Usage:
 
-1. process on the commandline:
+* process on the commandline:
 ```bash
 saxonb-xslt -o result.html your_ssis_package.dtsx scd.xsl
 ```
-2. in-document:
+* in-document:
   - Add `<?xml-stylesheet type="text/xsl" href="scd.xsl"?>`
     to the dtsx file right after the `<?xml version="1.0"?>`.
   - Place the scd.xsl file in the same directory as the dtsx file.
